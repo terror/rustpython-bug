@@ -1,7 +1,4 @@
-use {
-  rustpython::vm::Interpreter,
-  wasm_bindgen::{closure::Closure, prelude::wasm_bindgen, JsCast, JsValue},
-};
+use {rustpython::vm::Interpreter, wasm_bindgen::prelude::wasm_bindgen};
 
 #[wasm_bindgen]
 pub fn run() {

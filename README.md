@@ -1,5 +1,15 @@
 ### rustpython-bug
 
+```bash
+git clone https://github.com/terror/rustpython-bug
+cd rustpython-bug
+cargo build --release --target wasm32-unknown-unknown
+wasm-bindgen --target web --no-typescript target/wasm32-unknown-unknown/release/rustpython_bug.wasm --out-dir www
+python3 -m http.server --directory www --bind 0.0.0.0
+```
+
+Open localhost:8000, open the browser console, see this:
+
 ```
 rustpython_bug.js:108 ImportError: Cannot import builtin module _thread
 

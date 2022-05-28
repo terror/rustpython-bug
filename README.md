@@ -1,5 +1,7 @@
 ### rustpython-bug
 
+Steps to run:
+
 ```bash
 git clone https://github.com/terror/rustpython-bug
 cd rustpython-bug

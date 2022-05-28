@@ -1,3 +1,5 @@
 /.DS_Store
 /Cargo.lock
 /target
+/www/rustpython_bug.js
+/www/rustpython_bug_bg.wasm
